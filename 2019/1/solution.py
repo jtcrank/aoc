@@ -1,4 +1,3 @@
-import os
 import math
 
 with open('input.txt') as f:
