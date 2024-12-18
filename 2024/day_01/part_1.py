@@ -3,7 +3,7 @@
 ###################################
 
 with open("input.txt", "r") as input_file:
-    raw_values = input_file.read().strip().split("\n")
+    raw_values = input_file.readlines()
 
 list_1, list_2 = ([], [])
 
